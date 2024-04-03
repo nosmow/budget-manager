@@ -1,0 +1,24 @@
+﻿@model AccountType
+
+@{
+    ViewData["Title"] = "Crear tipo cuenta";
+}
+
+<div class="w-50 m-auto">
+    <h1>Crear tipo de cuenta</h1>
+    <p>
+        El tipo de cuenta se refiere a cómo podemos agrupar cuentas.
+        Ejemplo: Préstamos, tarjetas de crédito, etc.
+    </p>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <form asp-action="Create">
+        <div class="form-floating mb-3">
+            <input type="text" asp-for="Name" class="form-control" id="name" name="Name" placeholder="Nombre">
+            <label asp-for="Name">Nombre</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>

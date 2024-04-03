@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "krAgKGTsUn+dQbDc5VZHjMWIBPqLbVwcWd+Jm0yQTyTow/Ud8lhrAAjts5xF82m4BOm3ckfCmm5nnLhpQS8/RQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\budget-manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daine\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\daine\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\daine\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\daine\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
