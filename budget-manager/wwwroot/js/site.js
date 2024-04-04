@@ -1,4 +1,23 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿//Eventos para el sidebar responsive
+$(".sidebar ul li").on('click', function () {
+    $(".sidebar ul li.active").removeClass('active');
+    $(this).addClass('active');
+});
 
-// Write your JavaScript code.
+$('.open-btn').on('click', function () {
+    $('.sidebar').addClass('active');
+
+});
+
+
+$('.close-btn').on('click', function () {
+    $('.sidebar').removeClass('active');
+
+})
+//Activa la seccion actual
+/*$(document).ready(function () {
+    $('#ul_sidebar li').click(function () {
+        $('#ul_sidebar li').removeClass('active');
+        $(this).addClass('active');
+    });
+});*/

@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using budget_manager.Validations;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace budget_manager.Models
 {
@@ -6,7 +8,8 @@ namespace budget_manager.Models
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido")]
-        [StringLength(maximumLength: 50, MinimumLength = 3, ErrorMessage = "La longitud del campo {0} debe estar entre {2} y {1}")]
+        [FirstCapitalLetter]
+        [Remote(action: "VerifyExistsAccountType", controller: "AccountType")]
         public string Name { get; set; }
         public int UserId { get; set; }
         public int Orden { get; set; }

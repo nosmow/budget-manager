@@ -5,20 +5,29 @@
 }
 
 <div class="w-50 m-auto">
-    <h1>Crear tipo de cuenta</h1>
-    <p>
+    <h1 class="fs-4">Crear tipo de cuenta</h1>
+    <p class="fw-light mb-4">
         El tipo de cuenta se refiere a cómo podemos agrupar cuentas.
         Ejemplo: Préstamos, tarjetas de crédito, etc.
     </p>
 
-    <div asp-validation-summary="All" class="text-danger"></div>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
     <form asp-action="Create">
-        <div class="form-floating mb-3">
-            <input type="text" asp-for="Name" class="form-control" id="name" name="Name" placeholder="Nombre">
+        <div class="form-floating mb-4">
+            
+            <input type="text" asp-for="Name" class="form-control" placeholder="Nombre">
             <label asp-for="Name">Nombre</label>
+            <span asp-validation-for="Name" class="text-danger"></span>
         </div>
 
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <div class="d-flex justify-content-end gap-2">   
+            <a class="btn btn-secondary px-3" asp-action="Index">Cancelar</a>
+            <button type="submit" class="btn btn-light px-3">Guardar</button>
+        </div>
     </form>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
