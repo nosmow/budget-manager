@@ -20,27 +20,16 @@ html {
     transition: all 0.3s;
 }
 
-.content {
-    min-height: 100vh;
-    width: 100%;
+#side_nav {
+    z-index: 10 !important;
+}
+
+#content {
+    height: 100vh;
 }
 
 hr.h-color {
     background: #eee;
-}
-
-.sidebar li.active {
-    background: #eee;
-    border-radius: 8px;
-}
-
-    .sidebar li.active a,
-    .sidebar li.active a:hover {
-        color: #000;
-    }
-
-.sidebar li a {
-    color: #fff;
 }
 
 @media(max-width: 767px) {
@@ -51,7 +40,7 @@ hr.h-color {
         z-index: 1;
     }
 
-        #side_nav.active {
-            margin-left: 0;
-        }
+    #side_nav.active {
+        margin-left: 0;
+    }
 }

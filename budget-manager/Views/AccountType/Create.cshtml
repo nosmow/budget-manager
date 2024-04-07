@@ -11,11 +11,10 @@
         Ejemplo: Préstamos, tarjetas de crédito, etc.
     </p>
 
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
     <form asp-action="Create">
-        <div class="form-floating mb-4">
-            
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-floating mb-4">         
             <input type="text" asp-for="Name" class="form-control" placeholder="Nombre">
             <label asp-for="Name">Nombre</label>
             <span asp-validation-for="Name" class="text-danger"></span>
@@ -23,7 +22,7 @@
 
         <div class="d-flex justify-content-end gap-2">   
             <a class="btn btn-secondary px-3" asp-action="Index">Cancelar</a>
-            <button type="submit" class="btn btn-light px-3">Guardar</button>
+            <button type="submit" class="btn btn_primary px-3">Guardar</button>
         </div>
     </form>
 </div>

@@ -78,3 +78,6 @@ C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\bin\Debug\net6.0\r
 C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\obj\Debug\net6.0\budget-manager.csproj.AssemblyReference.cache
 C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\obj\Debug\net6.0\budget-m.F61CC848.Up2Date
+C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\obj\Debug\net6.0\scopedcss\Views\Account\Index.cshtml.rz.scp.css
+C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\daine\Documents\GitHub\budget-manager\budget-manager\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

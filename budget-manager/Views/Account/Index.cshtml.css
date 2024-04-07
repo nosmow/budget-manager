@@ -1,0 +1,34 @@
+﻿.container-totals {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+
+.active {
+    color: #2E86C1;
+}
+
+.pasive {
+    color: #E74C3C;
+}
+
+.accordion-account button {
+    color: black !important;
+}
+
+.accordion-account button > span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accordion-account ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.span_name {
+    display: inline-block;
+    min-width: 130px;
+}

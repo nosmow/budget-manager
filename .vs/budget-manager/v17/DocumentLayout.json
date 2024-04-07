@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\accounttype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\accounttype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\accounttype\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\accounttype\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\views\\accounttype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\accounttype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\services\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\services\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|c:\\users\\daine\\documents\\github\\budget-manager\\budget-manager\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881641FE-1306-434A-BDC3-78F1CA4BA870}|budget-manager\\budget-manager.csproj|solutionrelative:budget-manager\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\AccountType\\Edit.cshtml",
-              "RelativeDocumentMoniker": "budget-manager\\Views\\AccountType\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\AccountType\\Edit.cshtml",
-              "RelativeToolTip": "budget-manager\\Views\\AccountType\\Edit.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAA7AAAA",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "budget-manager\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "budget-manager\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T22:39:15.779Z",
+              "WhenOpened": "2024-04-07T20:21:45.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\AccountType\\Create.cshtml",
-              "RelativeDocumentMoniker": "budget-manager\\Views\\AccountType\\Create.cshtml",
-              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\AccountType\\Create.cshtml",
-              "RelativeToolTip": "budget-manager\\Views\\AccountType\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAQAAAA",
+              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "budget-manager\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "budget-manager\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T22:33:44.733Z",
+              "WhenOpened": "2024-04-07T20:08:22.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "budget-manager\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "budget-manager\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwBcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-04T21:40:41.239Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "budget-manager\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "budget-manager\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T20:07:23.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "budget-manager\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "budget-manager\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T21:32:18.561Z",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "budget-manager\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "budget-manager\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAuwGgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:03:31.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Services\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "budget-manager\\Services\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Services\\CategoryRepository.cs",
+              "RelativeToolTip": "budget-manager\\Services\\CategoryRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:58:16.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\AccountType\\Index.cshtml",
-              "RelativeDocumentMoniker": "budget-manager\\Views\\AccountType\\Index.cshtml",
-              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\AccountType\\Index.cshtml",
-              "RelativeToolTip": "budget-manager\\Views\\AccountType\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAAbAAAA",
+              "DocumentMoniker": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "budget-manager\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\daine\\Documents\\GitHub\\budget-manager\\budget-manager\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "budget-manager\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T22:40:46.674Z",
+              "WhenOpened": "2024-04-07T19:41:54.246Z",
               "EditorCaption": ""
             }
           ]

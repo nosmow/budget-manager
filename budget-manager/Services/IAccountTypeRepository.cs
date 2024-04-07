@@ -10,5 +10,6 @@ namespace budget_manager.Services
         Task<bool> Exists(string name, int userId);
         Task<IEnumerable<AccountType>> Get(int userId);
         Task<AccountType> GetById(int id, int userId);
+        Task Order(IEnumerable<AccountType> accountTypesOrder);
     }
 }

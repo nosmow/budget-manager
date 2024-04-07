@@ -1,0 +1,47 @@
+﻿body {
+    overflow: hidden;
+}
+
+#container_main {
+    overflow: auto;
+    height: 90vh;
+}
+
+#reorder tr {
+    cursor: move;
+}
+
+.side_active {
+    background-color: #2077C2;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.side_active a {
+    color: #FFF !important;
+}
+
+.side_active a > i {
+    color: #FFF;
+}
+
+.bg_primary {
+    background-color: #2E86C1;
+}
+
+.btn_primary {
+    background-color: #2077C2;
+    color: #FFF;
+    transition: all ease 0.3s;
+}
+
+.btn_primary:hover {
+    background-color: #0064B9;
+    color: #FFF;
+}
+
+.btn_primary:active {
+    background-color: #408BCB !important;
+    color: #FFF !important;
+    border: 1px solid #408BCB !important;
+}

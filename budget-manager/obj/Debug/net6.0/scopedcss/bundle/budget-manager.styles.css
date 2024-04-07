@@ -1,3 +1,38 @@
+/* _content/budget-manager/Views/Account/Index.cshtml.rz.scp.css */
+.container-totals[b-oabdu3n8gh] {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+
+.active[b-oabdu3n8gh] {
+    color: #2E86C1;
+}
+
+.pasive[b-oabdu3n8gh] {
+    color: #E74C3C;
+}
+
+.accordion-account button[b-oabdu3n8gh] {
+    color: black !important;
+}
+
+.accordion-account button > span[b-oabdu3n8gh] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accordion-account ul li[b-oabdu3n8gh] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.span_name[b-oabdu3n8gh] {
+    display: inline-block;
+    min-width: 130px;
+}
 /* _content/budget-manager/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

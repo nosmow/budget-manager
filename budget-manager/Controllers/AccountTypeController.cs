@@ -127,5 +127,26 @@ namespace budget_manager.Controllers
 
             return Json(true);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Order([FromBody] int[] ids)
+        {
+            var userId = userService.GetUserId();
+            var accountType = await accounTypeRepository.Get(userId);
+            var idsAccountType = accountType.Select(x => x.Id);
+
+            var idsAccountTypeDoesNotUser = ids.Except(idsAccountType).ToList();
+
+            if (idsAccountTypeDoesNotUser.Count > 0)
+            {
+                return Forbid();
+            }
+
+            var accountTypeOrder = ids.Select((value, index) => new AccountType { Id = value, Orden = index + 1}).AsEnumerable();
+
+            await accounTypeRepository.Order(accountTypeOrder);
+
+            return Ok();
+        }
     }
 }

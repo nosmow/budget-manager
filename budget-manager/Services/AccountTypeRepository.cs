@@ -1,6 +1,7 @@
 ﻿using budget_manager.Models;
 using Dapper;
 using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace budget_manager.Services
 {
@@ -17,9 +18,9 @@ namespace budget_manager.Services
         {
             using var connection = new SqlConnection(connectionString);
             var id = await connection.QuerySingleAsync<int>
-                                                    (@"INSERT INTO account_type (name, user_id, orden)
-                                                    VALUES (@Name, @UserId, 0);
-                                                    SELECT SCOPE_IDENTITY();", accountType);
+                                                    ("account_type_insert", new { userId = accountType.UserId,
+                                                    name = accountType.Name},
+                                                    commandType: CommandType.StoredProcedure);
             accountType.Id = id;
         }
 
@@ -40,7 +41,8 @@ namespace budget_manager.Services
             using var connection = new SqlConnection (connectionString);
             return await connection.QueryAsync<AccountType>(@"SELECT id, name, orden
                                                             FROM account_type
-                                                            WHERE user_id = @UserId;", 
+                                                            WHERE user_id = @UserId
+                                                            ORDER BY orden;", 
                                                             new {userId});
         }
 
@@ -66,6 +68,13 @@ namespace budget_manager.Services
         {
             using var connection = new SqlConnection(connectionString);
             await connection.ExecuteAsync("DELETE account_type WHERE id = @Id;", new {id});
+        }
+
+        public async Task Order(IEnumerable<AccountType> accountTypesOrder)
+        {
+            var query = "UPDATE account_type SET orden = @Orden WHERE id = @ID;";
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync(query, accountTypesOrder);
         }
     }
 }
